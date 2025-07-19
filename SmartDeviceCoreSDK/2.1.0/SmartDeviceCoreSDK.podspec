@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartDeviceCoreSDK'
-  s.version          = '2.1.0-iot-synergy'
+  s.version          = '2.1.0'
   s.summary          = 'smart device core sdk.'
 
   
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/iot-synergy/SmartDeviceCoreSDK-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mhf' => 'freelancer.mhf@gmail.com' }
-  s.source           = { :git => 'git@github.com:iot-synergy/SmartDeviceCoreSDK-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:iot-synergy/SmartDeviceCoreSDK-iOS.git', :tag => '2.1.0-iot-synergy' }
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.1'
